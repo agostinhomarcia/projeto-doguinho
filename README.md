@@ -66,7 +66,8 @@ The following tools were used in this project:
 
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/html/)  
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
-- [SASS](https://sass-lang.com/documentation/)
+- [Bootstrap](https://getbootstrap.com/)
+
 
 
 ## :white_check_mark: Requirements ##
