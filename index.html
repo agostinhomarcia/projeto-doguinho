@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="img/veterinario.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
-    <title>Doguinho's</title>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="shortcut icon" href="img/veterinario.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+  <title>Pet</title>
+
 </head>
+
 <body data-bs-spy="scroll" data-bs-target="#menu">
 
   <div class="container">
     <header class="bg-light sticky-top d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4 fw-bold text-primary"> <i class="mdi mdi-dog"></i> Doguinho's</span>
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4 fw-bold text-primary"> <i class="mdi mdi-dog"></i> Pet</span>
       </a>
 
       <ul id="menu" class="nav nav-pills">
         <div class="form-check form-switch ms-auto mt-2 me-5">
           <label id="icone-toggle" class="form-check-label ms-3" for="lightSwitch">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars" viewBox="0 0 16 16">
-              <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
-              <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars"
+              viewBox="0 0 16 16">
+              <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+              <path
+                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
             </svg>
           </label>
           <input class="form-check-input" type="checkbox" id="lightSwitch" />
@@ -39,18 +46,23 @@
     </header>
 
     <section id="home" class="mb-5">
-        <div class="row text-center text-md-start">
-          <div class="col-md-6 mt-5">
-            <h2 class="fs-5 mt-5">Aqui o seu amigo é tratado com carinho!</h2>
-            <h1 class="display-2 fw-bold">Clínica Veterinária</h1>
-            <p class="mt-4">A Clínica Veterinário Doguinho’s tem por objetivo prestar um serviço médigo veterinário de excelência aos animais e suas famílias, ao longo de todo o ciclo de vida do pet.</p>
-            <a class="btn btn-primary mt-5 p-4 w-50 fw-bold" href="https://api.whatsapp.com/send?phone=5521000000000&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank">Agendar Consulta <i class="mdi mdi-arrow-right-thick"></i></a>
-          </div>
-          <div class="col-md-6">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player class="m-0 m-auto float-none float-md-end" src="https://assets4.lottiefiles.com/packages/lf20_erya171l.json"  background="transparent"  speed="1"  style="max-width: 70%"  loop  autoplay></lottie-player>
-          </div>
+      <div class="row text-center text-md-start">
+        <div class="col-md-6 mt-5">
+          <h2 class="fs-5 mt-5">Aqui o seu amigo é tratado com carinho!</h2>
+          <h1 class="display-2 fw-bold">Clínica Veterinária</h1>
+          <p class="mt-4">A Clínica Veterinário Doguinho’s tem por objetivo prestar um serviço médigo veterinário de
+            excelência aos animais e suas famílias, ao longo de todo o ciclo de vida do pet.</p>
+          <a class="btn btn-primary mt-5 p-4 w-50 fw-bold"
+            href="https://api.whatsapp.com/send?phone=5521000000000&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
+            target="_blank">Agendar Consulta <i class="mdi mdi-arrow-right-thick"></i></a>
         </div>
+        <div class="col-md-6">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player class="m-0 m-auto float-none float-md-end"
+            src="https://assets4.lottiefiles.com/packages/lf20_erya171l.json" background="transparent" speed="1"
+            style="max-width: 70%" loop autoplay></lottie-player>
+        </div>
+      </div>
     </section>
 
     <section id="servicos" class="py-5 mb-5">
@@ -58,38 +70,42 @@
         <div class="col-12">
           <h2 class="mt-5 mb-5 pt-5 text-center fw-bold display-5">Serviços Prestados</h2>
         </div>
-      </div> 
+      </div>
 
       <div class="row mt-5 text-center">
         <div class="col-lg-4 mt-5">
-          <img class="rounded-circle shadow border p-5" src="./img/vacinado.png" alt="vacinacao">
-  
+          <img class="rounded-circle shadow border p-5" src="src/img/vacinado.png" alt="vacinacao">
+
           <h2>Vacinação</h2>
-          <p>O “efeito rebanho” causado pela vacinação faz com que quanto mais animais forem vacinados, menor seja a chance de doenças comuns tomarem grandes proporções.</p>
+          <p>O “efeito rebanho” causado pela vacinação faz com que quanto mais animais forem vacinados, menor seja a
+            chance de doenças comuns tomarem grandes proporções.</p>
           <p><a class="btn btn-secondary" href="#">Detalhes »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 mt-5">
-          <img class="rounded-circle shadow border p-5" src="./img/veterinario.png" alt="emergencia">
-  
+          <img class="rounded-circle shadow border p-5" src="src/img/veterinario.png" alt="emergencia">
+
           <h2>Emergência</h2>
-          <p>Bastante comum no mundo dos bichinhos de estimação caninos e felinos, a emergência veterinária consiste no tipo de situação que exige medidas rápidas e precisas para salvar a vida dos animais.</p>
+          <p>Bastante comum no mundo dos bichinhos de estimação caninos e felinos, a emergência veterinária consiste no
+            tipo de situação que exige medidas rápidas e precisas para salvar a vida dos animais.</p>
           <p><a class="btn btn-secondary" href="#">Detalhes »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 mt-5">
-          <img class="rounded-circle shadow border p-5" src="./img/dog.png" alt="raiox">
-  
+          <img class="rounded-circle shadow border p-5" src="src/img/dog.png" alt="raiox">
+
           <h2>Raio-X</h2>
-          <p>O objetivo do exame de raio-x é auxiliar o veterinário na avaliação das estruturas presentes na cavidade torácica, abdominal e também dos ossos e as articulações.</p>
+          <p>O objetivo do exame de raio-x é auxiliar o veterinário na avaliação das estruturas presentes na cavidade
+            torácica, abdominal e também dos ossos e as articulações.</p>
           <p><a class="btn btn-secondary" href="#">Detalhes »</a></p>
         </div><!-- /.col-lg-4 -->
       </div>
-      
+
     </section>
 
     <section id="precos" class="pt-5">
       <div class="row">
         <h2 class="mt-5 mb-4 pt-5 text-center fw-bold display-5">Preços</h2>
-        <p class="text-center mb-4">Não tem preço quando o seu pet precisa de ajuda porque está ferido e encontra cuidado, proteção e amor nas mãos do veterinário.</p>
+        <p class="text-center mb-4">Não tem preço quando o seu pet precisa de ajuda porque está ferido e encontra
+          cuidado, proteção e amor nas mãos do veterinário.</p>
       </div>
 
       <div class="row pb-5 mb-5">
@@ -158,37 +174,52 @@
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button bg-light text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button bg-light text-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Quais doenças de pele são transmitidas do cão ou gato ao homem?
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                As principais dermatites zoonóticas, ou seja, transmissíveis destes animais ao homem são a ecabiose canina e felina (sarna), as dermatofitoses (micoses superficiais), a esporotricose (micose profunda) e a leishmaniose (esta anão é transmitida pelo contato direto, mas sim através do mosquito palha, que pode picar um animal infectado e depois picar o homem).
+                As principais dermatites zoonóticas, ou seja, transmissíveis destes animais ao homem são a ecabiose
+                canina e felina (sarna), as dermatofitoses (micoses superficiais), a esporotricose (micose profunda) e a
+                leishmaniose (esta anão é transmitida pelo contato direto, mas sim através do mosquito palha, que pode
+                picar um animal infectado e depois picar o homem).
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed bg-light text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="accordion-button collapsed bg-light text-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 É verdade que certas raças não podem ser tosadas pois existe o risco de não nascer novamente o pêlo?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                Sim, estranhamente certas raças de pelame muito denso como o Chow Chow e o Husky Siberiano podem apresentar o que é chamada “alopecia pós tosa”, ou seja, a ausência da repilação em determinadas áreas que foram tosadas. Isto é uma condição temporária e de causa desconhecida, havendo normalização da pelagem dentro de 6 meses.
+                Sim, estranhamente certas raças de pelame muito denso como o Chow Chow e o Husky Siberiano podem
+                apresentar o que é chamada “alopecia pós tosa”, ou seja, a ausência da repilação em determinadas áreas
+                que foram tosadas. Isto é uma condição temporária e de causa desconhecida, havendo normalização da
+                pelagem dentro de 6 meses.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed bg-light text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="accordion-button collapsed bg-light text-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 O cachorro precisa fazer exame de sangue em todo checkup?
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                Não necessariamente. Os exames de sangue são apenas pedidos quando é preciso acessar ou investigar uma variedade de fatores, que incluem a idade do animal e se ele possui alguma condição pré-existente, conhecida ou não. No entanto, exames de sangue podem ser pedidos anualmente para observar se houve alguma mudança no metabolismo do animal.
+                Não necessariamente. Os exames de sangue são apenas pedidos quando é preciso acessar ou investigar uma
+                variedade de fatores, que incluem a idade do animal e se ele possui alguma condição pré-existente,
+                conhecida ou não. No entanto, exames de sangue podem ser pedidos anualmente para observar se houve
+                alguma mudança no metabolismo do animal.
               </div>
             </div>
           </div>
@@ -203,26 +234,35 @@
       <div class="row">
         <div class="col-5 m-5 p-5 text-center border bg-light">
           <h2 class="pb-5">Fale Conosco</h2>
-          <p class="pb-5">Tire suas dúvidas sobre a Clínica Veterinária Doguinho’s, deixe sugestões e depoimentos ou qualquer mensagem para a gente através do telefone de contato, whatsapp ou e-mail abaixo:</p>
-          <p class=""><i class="mdi mdi-phone m-1"></i>(00) 00000-0000</p>
-          <p><i class="mdi mdi-email m-1"></i>veterinario@provedor.com</p>
-          <button type="button" class="btn btn-success p-3 m-4"><i class="mdi mdi-whatsapp"></i><a class="text-light text-decoration-none m-1" href="https://api.whatsapp.com/send?phone=5521000000000&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank">Chamar Whatsapp</a></button>
+          <p class="pb-5">Tire suas dúvidas sobre a Clínica Veterinária Pet, deixe sugestões e depoimentos ou
+            qualquer mensagem para a gente através do telefone de contato, whatsapp ou e-mail abaixo:</p>
+          <p class=""><i class="mdi mdi-phone m-1"></i>(00) 00000-9999</p>
+          <p><i class="mdi mdi-email m-1"></i>pet@provedor.com</p>
+          <button type="button" class="btn btn-success p-3 m-4"><i class="mdi mdi-whatsapp"></i><a
+              class="text-light text-decoration-none m-1"
+              href="https://api.whatsapp.com/send?phone=5521000000000&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
+              target="_blank">Chamar Whatsapp</a></button>
         </div>
 
         <div class="col-5 mt-5 mb-5 p-5 text-center border bg-light">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117530.46551639904!2d-43.437591636699935!3d-22.99338655314974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda4a27b6fe5d%3A0x63c3f6d1d89e0f4e!2sBarra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1654368488728!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117530.46551639904!2d-43.437591636699935!3d-22.99338655314974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda4a27b6fe5d%3A0x63c3f6d1d89e0f4e!2sBarra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1654368488728!5m2!1spt-BR!2sbr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
-   
+
     <footer class="container">
       <p class="float-end"><a href="#">Ir ao topo</a></p>
-      <p>© 2017–2022 <span class="p-"> <i class="mdi mdi-dog"></i> Doguinho's - Clínica Veterinária</span><a class="ms-5" href="#">Política de Privacidade</a><a class="ms-3" href="#">Termos de Uso</a></p>
+      <p>Desde 2000<span class="p-"> <i class="mdi mdi-dog"></i> Pet - Clínica Veterinária</span><a
+          class="ms-5" href="#">Política de Privacidade</a><a class="ms-3" href="#">Termos de Uso</a></p>
     </footer>
-         
-  </div> 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/switch.js"></script>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/switch.js"></script>
 </body>
+
 </html>

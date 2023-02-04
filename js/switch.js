@@ -106,7 +106,7 @@ icone = document.getElementById('icone-toggle');
     return 'light';
   }
 
-  function setup() {
+  function setup()  {
     var settings = localStorage.getItem('lightSwitch');
     if (settings == null) {
       settings = getSystemDefaultTheme();
